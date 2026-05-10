@@ -7,11 +7,19 @@ failed, and skipped tests.
 
 ```text
 scripts/
+  __init__.py
   pytest_summary.py
 samples/
   pytest_output.txt
 README.md
 ```
+
+## Imports in Tests
+
+Tests import using `from scripts.pytest_summary import count_results`.
+
+The `scripts/__init__.py` file makes `scripts` an explicit package, which keeps
+imports editor-friendly and avoids IDE-specific source-root setup.
 
 ## Usage
 

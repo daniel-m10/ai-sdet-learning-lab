@@ -8,7 +8,6 @@ dependencies = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["scripts"]
 
 [dependency-groups]
 dev = [
