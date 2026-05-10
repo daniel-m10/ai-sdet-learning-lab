@@ -1,0 +1,7 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.0, pytest-8.2.0
+collected 5 items
+
+tests/test_example.py ..Fs.                                             [100%]
+
+====================== 1 failed, 3 passed, 1 skipped in 0.12s ======================

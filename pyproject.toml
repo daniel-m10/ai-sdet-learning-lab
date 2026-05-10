@@ -1,0 +1,16 @@
+[project]
+name = "ai-sdet-learning-lab"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=9.0.3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.12",
+]
